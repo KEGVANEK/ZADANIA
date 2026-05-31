@@ -1,0 +1,33 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WeatherExternalApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/weather/{city}": {
+      "get": {
+        "tags": [
+          "WeatherExternalApi"
+        ],
+        "operationId": "GetWeatherByCity",
+        "parameters": [
+          {
+            "name": "city",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
