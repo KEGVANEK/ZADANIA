@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitiesApi", "CitiesApi\Citi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorsApi", "ErrorsApi\ErrorsApi.csproj", "{17CDB4FA-1DEE-42F3-A4B9-DB0B849F7577}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelQuotesApi", "TravelQuotesApi\TravelQuotesApi.csproj", "{C2100AFD-CD79-41AA-B381-43C510B8C85C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{17CDB4FA-1DEE-42F3-A4B9-DB0B849F7577}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17CDB4FA-1DEE-42F3-A4B9-DB0B849F7577}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17CDB4FA-1DEE-42F3-A4B9-DB0B849F7577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2100AFD-CD79-41AA-B381-43C510B8C85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2100AFD-CD79-41AA-B381-43C510B8C85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2100AFD-CD79-41AA-B381-43C510B8C85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2100AFD-CD79-41AA-B381-43C510B8C85C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
